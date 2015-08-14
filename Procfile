@@ -1,1 +1,1 @@
-web: bundle exec rails s Puma -p 8000
+web: bundle exec rails s Puma -p 80
