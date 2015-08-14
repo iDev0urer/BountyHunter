@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: bounty_hunter_production
-  username: BountyHunter
-  password: <%= ENV['UNTITLED_DATABASE_PASSWORD'] %>
+  database: bounty_hunter
+  username: postgres
+  password: <%= ENV['BH_DATABASE_PASSWORD'] %>
